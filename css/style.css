@@ -1,0 +1,39 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    margin: 80px;
+    font-family: 'IM Fell French Canon SC', serif;
+    font-size: 2rem ;
+}
+
+main, section
+{
+    border: outset;
+    border-radius: 50px;
+    padding: 30px;
+}
+
+.details > li
+{
+    display: inline-block;
+    text-decoration: none;
+
+}
+#deets > li
+{
+    display: block;
+    text-decoration: none;
+}
+.details
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
